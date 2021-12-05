@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tip calculator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="style2.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+      <div class="main-content">
+        <form id="form1">
+          <h3>Tip Calculator</h3>
+          <div>
+           <label for="">Bill Amount(RS)</label>
+           <input type="text" id="bill" class="input" placeholder="Enter your bill amount" >
+          </div>
+          <div>
+           <label for="">Tip Percentage(%)</label>
+           <input type="text" id="tip" class="input" placeholder="Enter your tip amount" >
+          </div>
+          
+           <input type="button" id="submit" class="button" value="Calculate" >
+           <input type="reset" id="reset" class="button" value="Reset">  
+       </form>
+        <form id="form2">
+          <h3>Your bill comes to</h3>
+          <div>
+            <label for="tip">Tip amount</label>
+            <input type="text" id="result1" class="input">
+          </div>
+          <div>
+            <label for="total"> Total Amount to be Paid</label>
+            <input type="text" id="result2" class="input">
+          </div>
+
+        </form>
+       
+      
+            
+      </div>
+   <script src="script1.js"></script>
+</body>
+</html>
